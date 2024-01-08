@@ -133,9 +133,6 @@
     "url": "https://ds4-windows.com/download/ryochan7-ds4windows/"
   },
   {
-    "url": "https://developer.android.com/studio"
-  },
-  {
     "url": "https://www.ea.com/fr-fr/ea-app"
   },
   {
@@ -163,7 +160,6 @@
   { "url": "https://store.steampowered.com/about/" },
   { "url": "https://github.com/TCNOco/TcNo-Acc-Switcher/releases/latest" },
   { "url": "https://github.com/Alex313031/Thorium-Win/releases/latest" },
-  { "url": "https://github.com/PowerShell/PowerShell/releases/latest" },
   {
     "url": "https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/17_0"
   }

@@ -162,7 +162,7 @@ namespace AutoSetupOnNewInstall
                 {
                     wc.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.BypassCache);
                     wc.Headers.Add("Cache-Control", "no-cache");
-                    string json = wc.DownloadString("file:///C:/Users/dams/source/repos/AutoSetupOnNewInstall/files.json");
+                    string json = wc.DownloadString("https://raw.githubusercontent.com/DamsDev1/AutoSetupOnNewInstall/main/files.json");
                     downloadList = JsonConvert.DeserializeObject<List<DownloadFiles>>(json);
                 } catch (Exception e)
                 {
