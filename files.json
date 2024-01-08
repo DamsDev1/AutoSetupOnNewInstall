@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+    "name": "vscode.exe",
+    "command": ".\\vscode.exe /sp /verysilent /tasks=\"associatewithfiles,addtopath,addcontextmenufolders,addcontextmenufiles\"",
+    "admin": true
+  },
+  {
+    "url": "https://www.voidtools.com"
+  },
+  {
+    "url": "https://www3.corsair.com/software/CUE_V5/public/modules/windows/installer/Install%20iCUE.exe",
+    "name": "iCue.exe",
+    "command": ".\\iCue.exe",
+    "admin": true
+  },
+  {
+    "url": "https://download.vb-audio.com/Download_CABLE/Voicemeeter8Setup_v3022.zip",
+    "name": "Voicemeeter8Setup_v3022.zip",
+    "command": ".\\Voicemeeter8Setup_v3022.zip"
+  },
+  {
+    "url": "https://www.7-zip.org/a/7z2301-x64.exe",
+    "name": "7zip.exe",
+    "command": ".\\7zip.exe",
+    "admin": true
+  },
+  {
+    "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
+    "name": "lghub_installer.exe",
+    "command": ".\\lghub_installer.exe",
+    "admin": true
+  },
+  {
+    "url": "https://rzr.to/synapse-3-pc-download",
+    "name": "synapse.exe",
+    "command": ".\\synapse.exe",
+    "admin": true
+  },
+  {
+    "url": "https://diskanalyzer.com/files/wiztree_4_16_setup.exe",
+    "name": "wiztree.exe",
+    "command": ".\\wiztree.exe /sp /verysilent",
+    "admin": true
+  },
+  {
+    "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86",
+    "name": "discord.exe",
+    "command": ".\\discord.exe"
+  },
+
+  {
+    "url": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
+    "name": "fdm.exe",
+    "command": ".\\fdm.exe /sp /verysilent",
+    "admin": true
+  },
+  {
+    "url": "https://github.com/HandBrake/HandBrake/releases/download/1.7.2/HandBrake-1.7.2-x86_64-Win_GUI.exe",
+    "name": "handbrake.exe",
+    "command": ".\\handbrake.exe",
+    "admin": true
+  },
+  {
+    "url": "https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC"
+  },
+  {
+    "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe",
+    "name": "nvm.exe",
+    "command": ".\\nvm.exe",
+    "admin": true
+  },
+  {
+    "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.0.2-Full-Installer-x64.exe",
+    "name": "obs.exe",
+    "command": ".\\obs.exe",
+    "admin": true
+  },
+  {
+    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.3/Obsidian.1.5.3.exe",
+    "name": "obsidian.exe",
+    "command": ".\\obsidian.exe"
+  },
+  {
+    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.76.2/PowerToysSetup-0.76.2-x64.exe",
+    "name": "powertoys.exe",
+    "command": ".\\powertoys.exe",
+    "admin": true
+  },
+  {
+    "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.80-installer.msi",
+    "name": "putty.exe",
+    "command": ".\\putty.exe",
+    "admin": true
+  },
+  {
+    "url": "https://winscp.net/download/WinSCP-6.1.2-Setup.exe",
+    "name": "winscp.exe",
+    "command": ".\\winscp.exe",
+    "admin": true
+  },
+  {
+    "url": "https://downloader.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe",
+    "name": "battlenet.exe",
+    "command": ".\\battlenet.exe",
+    "admin": true
+  },
+  {
+    "url": "https://builds.artemis-rgb.com/binaries/Artemis.Installer.exe",
+    "name": "artemisrgb.exe",
+    "command": ".\\artemisrgb.exe",
+    "admin": true
+  },
+  {
+    "url": "https://dl.pstmn.io/download/latest/win64",
+    "name": "postman.exe",
+    "command": ".\\postman.exe",
+    "admin": false
+  },
+  {
+    "url": "https://telegram.org/dl/desktop/win64",
+    "name": "telegram.exe",
+    "command": ".\\telegram.exe",
+    "admin": false
+  },
+  {
+    "url": "https://visualstudio.microsoft.com/fr/downloads"
+  },
+  {
+    "url": "https://developer.android.com/studio"
+  },
+  {
+    "url": "https://ds4-windows.com/download/ryochan7-ds4windows/"
+  },
+  {
+    "url": "https://developer.android.com/studio"
+  },
+  {
+    "url": "https://www.ea.com/fr-fr/ea-app"
+  },
+  {
+    "url": "https://store.epicgames.com/fr/download"
+  },
+  {
+    "url": "https://git-scm.com/download/win"
+  },
+  {
+    "url": "https://www.mongodb.com/try/download/compass"
+  },
+  {
+    "url": "https://www.msi.com/Landing/afterburner/graphics-cards"
+  },
+  {
+    "url": "https://www.plex.tv/fr/media-server-downloads/?cat=plex+desktop&plat=windows#plex-app"
+  },
+  {
+    "url": "https://www.privateinternetaccess.com/fr/download/windows-vpn"
+  },
+  {
+    "url": "https://slack.com/intl/fr-fr/downloads/windows"
+  },
+  { "url": "https://www.w10privacy.de/deutsch-start/download/" },
+  { "url": "https://store.steampowered.com/about/" },
+  { "url": "https://github.com/TCNOco/TcNo-Acc-Switcher/releases/latest" },
+  { "url": "https://github.com/Alex313031/Thorium-Win/releases/latest" },
+  { "url": "https://github.com/PowerShell/PowerShell/releases/latest" },
+  {
+    "url": "https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/17_0"
+  }
+]
