@@ -11,17 +11,26 @@ jobs:
    steps:
    - uses: actions/checkout@v2
   
-   - name: Setup MSBuild
+   - name: setup-msbuild
      uses: microsoft/setup-msbuild@v1
 
    - name: Setup NuGet
      uses: NuGet/setup-nuget@v1.0.5
 
-   - name: setup-msbuild
-     uses: microsoft/setup-msbuild@v1.1
+   - name: Navigate to Workspace
+     run: cd $GITHUB_WORKSPACE
+
+   - name: Create Build Directory
+     run: mkdir _build
 
    - name: Restore Packages
      run: nuget restore AutoSetupOnNewInstall.sln
 
    - name: Build solution
-     run: msbuild AutoSetupOnNewInstall.sln -t:rebuild -property:Configuration=Release
+     run: msbuild AutoSetupOnNewInstall.sln /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
+
+   - name: Upload artifact
+     uses: actions/upload-artifact@v1.0.0
+     with:
+      name: AutoSetupOnNewInstall
+      path: "./_build" 
